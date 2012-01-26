@@ -29,11 +29,12 @@
 //PORTS TABLE
 
 //PWMs                       SLOT   PORT
+Jaguar minibot_jag          ( 4,     1 );
 Jaguar left_rear_jag        ( 4,     2 );
 Jaguar right_rear_jag       ( 4,     3 );
 Jaguar right_front_jag      ( 4,     4 );
 Jaguar left_front_jag       ( 4,     5 );
-Jaguar minibot_jag          ( 4,     1 );
+
 
 //DIOs                       SLOT   PORT
 //sample_dio                ( 4,     1,

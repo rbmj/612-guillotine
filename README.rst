@@ -1,9 +1,28 @@
 ----------------------------------------------
-Chantilly Robotics Code for 2012 FRC Challenge
+Chantilly Robotics Guillotine Drive Code
 ----------------------------------------------
 
-This project contains all of `FIRST Team 612 Chantilly Robotics`_' code for the
-2012 FRC Challenge.
+This project contains `FIRST Team 612 Chantilly Robotics`_' code for driving
+the 2011 robot, Guillotine.
+
+Notes
+++++++++++++++++
+
+As last year's code was entirely written in LabVIEW, this code is a rewrite and
+a work in progress.  Not all functionality is implemented.  Additionally, many
+components of Guillotine are salvaged, so only basic funcitonality is available
+unless some of the components are reinstalled.
+
+This code also can provide a base for future code on subsequent robots.  A fork
+of this repository can provide a nice foundation for new robot code.
+
+The code may require updates and maintainance as the API and libraries are
+changed.  The WPILib version must be compatible with the image version in order
+for the kernel to load the user code module.
+
+This code was originally branched off of the 2012 code base and retroactivly
+adjusted to work with the 2011 robot.  The commit it is based off of is
+2456a3baea47ccf0545896d48892d5b63337b5b8.
 
 Usage
 ++++++++++++++++
@@ -52,7 +71,6 @@ Thanks
 Thanks go out to nikitakit and all the other developers of the ucpp_ project.
 Thanks to github_ for providing hosting of our code.
 And finally, a big thanks to the entire organization of FIRST_.
-
 
 
 .. _`FIRST Team 612 Chantilly Robotics`: http://www.chantillyrobotics.org/
