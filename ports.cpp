@@ -26,18 +26,19 @@
 
 //just define & initialize all of the consts in ports.h
 
+
 //PORTS TABLE
 
 //PWMs                       SLOT   PORT
-Jaguar minibot_jag          ( 4,     1 );
-Jaguar left_rear_jag        ( 4,     2 );
-Jaguar right_rear_jag       ( 4,     3 );
-Jaguar right_front_jag      ( 4,     4 );
-Jaguar left_front_jag       ( 4,     5 );
+Jaguar minibot_jag          ( 1,     1 );
+Jaguar left_rear_jag        ( 1,     2 );
+Jaguar right_rear_jag       ( 1,     3 );
+Jaguar right_front_jag      ( 1,     4 );
+Jaguar left_front_jag       ( 1,     5 );
 
 
 //DIOs                       SLOT   PORT
-//sample_dio                ( 4,     1,
+//sample_dio                ( 1,     1,
 //                                   2 );
 
 //AIOs                       SLOT   PORT
